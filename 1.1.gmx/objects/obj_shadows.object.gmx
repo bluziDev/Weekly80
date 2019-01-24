@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>depth=6
-//surface_resize(application_surface,view_wview[0],view_hview[0])
+surface_resize(application_surface,view_wview[0],view_hview[0])
 </string>
           </argument>
         </arguments>
@@ -64,8 +64,8 @@ with obj_tearPink{
         draw_sprite(spr_s_tearPink,0,other.x,other.y)
     }
 }*/
-draw_sprite(spr_s_heartBlue,obj_heartBlue.image_index,obj_heartBlue.x,obj_heartBlue.y)
-draw_sprite(spr_s_heartPink,obj_heartPink.image_index,obj_heartPink.x,obj_heartPink.y)
+draw_sprite(spr_s_heartBlue,obj_heartBlue.image_index,obj_heartBlue.floorX,obj_heartBlue.floorY)
+draw_sprite(spr_s_heartPink,obj_heartPink.image_index,obj_heartPink.floorX,obj_heartPink.floorY)
 </string>
           </argument>
         </arguments>
