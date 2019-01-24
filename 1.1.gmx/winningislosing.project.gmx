@@ -29,6 +29,7 @@
       <sprite>sprites\spr_s_tearPink</sprite>
       <sprite>sprites\spr_icon</sprite>
     </sprites>
+    <sprite>sprites\spr_iconHud</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile1</background>
@@ -50,6 +51,9 @@
       <object>objects\obj_collision</object>
       <object>objects\obj_wall</object>
       <object>objects\obj_tear</object>
+    </objects>
+    <objects name="HUD">
+      <object>objects\obj_hud</object>
     </objects>
   </objects>
   <rooms name="rooms">
